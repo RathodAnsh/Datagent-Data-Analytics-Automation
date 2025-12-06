@@ -1,0 +1,12 @@
+polars
+pandas
+numpy
+scikit-learn
+sentence-transformers
+pyarrow
+pyod
+google-generativeai 
+scikit-learn 
+scipy 
+python-dotenv
+sentence-transformers
