@@ -1,0 +1,123 @@
+{
+  "rows": 12575,
+  "num_columns": 11,
+  "column_list": [
+    "transaction_id",
+    "customer_id",
+    "category",
+    "item",
+    "price_per_unit",
+    "quantity",
+    "total_spent",
+    "payment_method",
+    "location",
+    "transaction_date",
+    "discount_applied"
+  ],
+  "column_details": {
+    "transaction_id": {
+      "dtype": "object",
+      "unique_values": 12575,
+      "missing_values": 0,
+      "samples": [
+        "TXN_6867343",
+        "TXN_3731986",
+        "TXN_9303719",
+        "TXN_9458126",
+        "TXN_4575373"
+      ]
+    },
+    "customer_id": {
+      "dtype": "object",
+      "unique_values": 25,
+      "missing_values": 0,
+      "samples": [
+        "CUST_09",
+        "CUST_22",
+        "CUST_02",
+        "CUST_06",
+        "CUST_05"
+      ]
+    },
+    "category": {
+      "dtype": "object",
+      "unique_values": 8,
+      "missing_values": 0,
+      "samples": [
+        "Patisserie",
+        "Milk Products",
+        "Butchers",
+        "Beverages",
+        "Food"
+      ]
+    },
+    "item": {
+      "dtype": "object",
+      "unique_values": 200,
+      "missing_values": 0,
+      "samples": [
+        "Item_10_PAT",
+        "Item_17_MILK",
+        "Item_12_BUT",
+        "Item_16_BEV",
+        "Item_6_FOOD"
+      ]
+    },
+    "price_per_unit": {
+      "dtype": "float64",
+      "unique_values": 25,
+      "missing_values": 0,
+      "min": 5.0,
+      "max": 41.0,
+      "mean": 23.348190854870776
+    },
+    "quantity": {
+      "dtype": "int64",
+      "unique_values": 10,
+      "missing_values": 0,
+      "min": 1.0,
+      "max": 10.0,
+      "mean": 5.558648111332008
+    },
+    "total_spent": {
+      "dtype": "float64",
+      "unique_values": 227,
+      "missing_values": 0,
+      "min": 5.0,
+      "max": 410.0,
+      "mean": 130.11495029821074
+    },
+    "payment_method": {
+      "dtype": "object",
+      "unique_values": 3,
+      "missing_values": 0,
+      "samples": [
+        "Digital Wallet",
+        "Credit Card",
+        "Cash"
+      ]
+    },
+    "location": {
+      "dtype": "object",
+      "unique_values": 2,
+      "missing_values": 0,
+      "samples": [
+        "Online",
+        "In-store"
+      ]
+    },
+    "transaction_date": {
+      "dtype": "datetime64[ns]",
+      "unique_values": 1114,
+      "missing_values": 0
+    },
+    "discount_applied": {
+      "dtype": "bool",
+      "unique_values": 2,
+      "missing_values": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.6694234592445328
+    }
+  }
+}
