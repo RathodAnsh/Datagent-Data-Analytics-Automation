@@ -1,0 +1,142 @@
+{
+  "timestamp": "2026-01-20T20:20:11.016495",
+  "dataset_shape": {
+    "rows": 9983,
+    "columns": 9
+  },
+  "column_info": {
+    "order_id": {
+      "dtype": "int64",
+      "missing_count": 0,
+      "unique_values": 9591
+    },
+    "product": {
+      "dtype": "object",
+      "missing_count": 0,
+      "unique_values": 19
+    },
+    "quantity_ordered": {
+      "dtype": "int64",
+      "missing_count": 0,
+      "unique_values": 7
+    },
+    "price": {
+      "dtype": "float64",
+      "missing_count": 0,
+      "unique_values": 17
+    },
+    "order_date": {
+      "dtype": "object",
+      "missing_count": 0,
+      "unique_values": 31
+    },
+    "time": {
+      "dtype": "datetime64[ns]",
+      "missing_count": 0,
+      "unique_values": 1319
+    },
+    "purchase_address": {
+      "dtype": "object",
+      "missing_count": 0,
+      "unique_values": 9460
+    },
+    "city": {
+      "dtype": "object",
+      "missing_count": 0,
+      "unique_values": 9
+    },
+    "product_type": {
+      "dtype": "object",
+      "missing_count": 0,
+      "unique_values": 10
+    }
+  },
+  "sample_data": [
+    {
+      "order_id": "176558",
+      "product": "USB-C Charging Cable",
+      "quantity_ordered": "2",
+      "price": "11.95",
+      "order_date": "19-04-2019",
+      "time": "2026-01-20 08:46:00",
+      "purchase_address": "917 1st St, Dallas, TX 75001",
+      "city": " Dallas",
+      "product_type": "Cable"
+    },
+    {
+      "order_id": "176559",
+      "product": "Bose SoundSport Headphones",
+      "quantity_ordered": "1",
+      "price": "99.99",
+      "order_date": "7/4/2019",
+      "time": "2026-01-20 22:30:00",
+      "purchase_address": "682 Chestnut St, Boston, MA 02215",
+      "city": " Boston",
+      "product_type": "Headphones"
+    },
+    {
+      "order_id": "176560",
+      "product": "Google Phone",
+      "quantity_ordered": "1",
+      "price": "600.0",
+      "order_date": "12/4/2019",
+      "time": "2026-01-20 14:38:00",
+      "purchase_address": "669 Spruce St, Los Angeles, CA 90001",
+      "city": " Los Angeles",
+      "product_type": "Phone"
+    },
+    {
+      "order_id": "176560",
+      "product": "Wired Headphones",
+      "quantity_ordered": "1",
+      "price": "11.99",
+      "order_date": "12/4/2019",
+      "time": "2026-01-20 14:38:00",
+      "purchase_address": "669 Spruce St, Los Angeles, CA 90001",
+      "city": " Los Angeles",
+      "product_type": "Headphones"
+    },
+    {
+      "order_id": "176561",
+      "product": "Wired Headphones",
+      "quantity_ordered": "1",
+      "price": "11.99",
+      "order_date": "30-04-2019",
+      "time": "2026-01-20 09:27:00",
+      "purchase_address": "333 8th St, Los Angeles, CA 90001",
+      "city": " Los Angeles",
+      "product_type": "Headphones"
+    }
+  ],
+  "statistics": {
+    "order_id": {
+      "min": 176558.0,
+      "max": 186148.0,
+      "mean": 181355.43594109986,
+      "sum": 1810471317.0
+    },
+    "quantity_ordered": {
+      "min": 1.0,
+      "max": 7.0,
+      "mean": 1.1293198437343483,
+      "sum": 11274.0
+    },
+    "price": {
+      "min": 2.99,
+      "max": 1700.0,
+      "mean": 183.60166082339975,
+      "sum": 1832895.38
+    }
+  },
+  "columns_list": [
+    "order_id",
+    "product",
+    "quantity_ordered",
+    "price",
+    "order_date",
+    "time",
+    "purchase_address",
+    "city",
+    "product_type"
+  ]
+}
