@@ -1,2 +1,2 @@
-# Datagent : Automated Data Analysis Workflow project
-# Under Development 
+# Datagent : Data Analytics Automation Tool
+# Coming Soon
