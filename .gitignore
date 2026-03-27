@@ -1,0 +1,59 @@
+ # ── Node.js ──────────────────────────────────────────────────────────────────
+node_modules/
+.next/
+dist/
+build/
+.bolt/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# ── Environment variables — NEVER commit API keys ────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Runtime output files — auto-generated, not source code ───────────────────
+cleaned_dataset.csv
+dashboard_dataset.csv
+dashboard_profile.json
+dashboard_ready_dataset.csv
+full_cleaning_report.json
+cleaning_summary.csv
+semantic_metadata.json
+filtered_dataset.csv
+AI_Report.xlsx
+temp_analysis.R
+temp_analysis_filtered.R
+automated_analysis_report.xlsx
+
+# ── Temp folders created at runtime ──────────────────────────────────────────
+temp_charts/
+temp_data/
+data_profiles/
+uploads/
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE files ────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── Test datasets — not source code ──────────────────────────────────────────
+dirty_*.csv
+retail_store_sales.csv
+
+# ── Python panic/crash logs ───────────────────────────────────────────────────
+next-panic-*.log

@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+pandas
+openpyxl
+python-dotenv
+google-genai
+pywin32
+XlsxWriter
+lucide-react
+react-plotly.js 
+plotly.js

@@ -1,0 +1,24 @@
+{
+  "name": "datagent-monorepo",
+  "version": "1.0.0",
+  "description": "DATAGENT — AI Data Intelligence Platform",
+  "scripts": {
+    "install:all": "npm install && cd datagent && npm install && cd ../datagent_ui && npm install && cd ../python_automation/frontend && npm install && cd ../../r-automation-nextjs/frontend && npm install && cd ../../sql_automation/frontend && npm install",
+
+    "start": "concurrently --kill-others-on-fail --prefix-colors \"bgBlue.bold,bgGreen.bold,bgMagenta.bold,bgCyan.bold,bgYellow.bold,bgRed.bold,bgWhite.bold,bgGray.bold\" --names \"DATAGENT,REACT,BACKEND,EXCEL,PYTHON-B,R-B,SQL-B,PYTHON-F,R-F,SQL-F\" \"npm run start:datagent\" \"npm run start:react\" \"npm run start:backend\" \"npm run start:excel\" \"npm run start:python-backend\" \"npm run start:r-backend\" \"npm run start:sql-backend\" \"npm run start:python-frontend\" \"npm run start:r-frontend\" \"npm run start:sql-frontend\"",
+
+    "start:datagent":        "cd datagent && npm run dev",
+    "start:react":           "cd datagent_ui && npm run dev",
+    "start:backend":         "cd backend && venv\\Scripts\\activate && uvicorn main:app --reload --port 8000",
+    "start:excel":           "cd excel_backend && venv\\Scripts\\activate && uvicorn main:app --reload --port 8001",
+    "start:python-backend":  "cd python_automation/backend && venv\\Scripts\\activate && uvicorn main:app --reload --port 8002",
+    "start:r-backend":       "cd r-automation-nextjs/backend && venv\\Scripts\\activate && uvicorn main:app --reload --port 8003",
+    "start:sql-backend":     "cd sql_automation/backend && venv\\Scripts\\activate && uvicorn main:app --reload --port 8004",
+    "start:python-frontend": "cd python_automation/frontend && npm run dev",
+    "start:r-frontend":      "cd r-automation-nextjs/frontend && npm run dev",
+    "start:sql-frontend":    "cd sql_automation/frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
